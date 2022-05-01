@@ -82,6 +82,7 @@
 
 body {
   margin: 0;
+  width: 100%;
   font-family: var(--bs-body-font-family);
   font-size: var(--bs-body-font-size);
   font-weight: var(--bs-body-font-weight);
@@ -11763,3 +11764,26 @@ h1 {
  
 /* (C) ZOOM ON HOVER */
 #zoomA:hover { transform: scale(1.2); }
+
+
+
+.skills {
+  width: 100%;
+  background-color: #ddd;
+}
+
+.skill {
+  text-align: right;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: white;
+}
+
+.html {width: 90%; background-color: black;}
+.css {width: 80%; background-color: black;}
+.js {width: 65%; background-color: black;}
+.php {width: 90%; background-color: black;}
+.java {width: 90%; background-color: black;}
+.python {width: 60%; background-color: black;}
+.c {width: 80%; background-color: black;}
+.dm {width: 70%; background-color: black;}
